@@ -33,4 +33,4 @@ with DAG(
     t1 = BashOperator(
         task_id='my_bash_example',
         # "scripts" folder is under "/usr/local/airflow/dags"
-        bash_command="bash_script.sh")
+        bash_command="echo 'Hello this is from BASH'")
